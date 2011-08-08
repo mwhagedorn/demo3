@@ -11,3 +11,4 @@ gem_package "bundler" do
 end
 require_recipe "git"
 require_recipe "bundler::install"
+require_recipe "bootstrap_rake_tasks"
