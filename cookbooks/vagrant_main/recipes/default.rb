@@ -12,3 +12,6 @@ end
 require_recipe "git"
 require_recipe "bundler::install"
 require_recipe "bootstrap_rake_tasks"
+require_recipe "nginx"
+require_recipe "unicorn"
+require_recipe "custom_nginx_unicorn"
