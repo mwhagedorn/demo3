@@ -3,3 +3,4 @@ package "mysql-server" do
 end
 
 require_recipe "copy_database_yml"
+require_recipe "bundler::install"
